@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosIA.css">
+    <title>Cursos en línea</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li style="width: 100%;"><a href="#contacto">Contacto</a></li>
+            <li style="width: 100%;"><a href="#quienes-somos">Quiénes somos</a></li>
+            <li class="dropdown" style="width: 100%;">
+                <a href="#">Catálogo</a>
+                <div class="dropdown-content">
+                    <a href="#ingles-cursos">Inglés</a>
+                    <a href="#frances-cursos">Francés</a>
+                </div>
+            </li>
+            <li><a href="#consigna">Consigna</a></li>
+        </ul>
+    </nav>
+
+    <section id="contacto">
+        <h1>Contacto</h1>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="motivo">Motivo:</label>
+            <input type="text" id="motivo" name="motivo" required>
+            <label for="detalles">Detalles:</label>
+            <textarea id="detalles" name="detalles" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="quienes-somos">
+        <h1>Quiénes somos</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nulla sit amet tellus cursus facilisis.</p>
+    </section>
+
+    <section id="ingles-cursos">
+        <h1>Cursos de Inglés</h1>
+        <div class="curso">
+            <div class="curso-info">
+                <h2>Principiante</h2>
+                <a href="programas/ingles_principiante.pdf" download>Descargar programa</a>
+            </div>
+        </div>
+        <div class="curso">
+            <div class="curso-info">
+                <h2>Intermedio</h2>
+                <a href="programas/ingles_intermedio.pdf" download>Descargar programa</a>
+            </div>
+        </div>
+        <div class="curso">
+            <div class="curso-info">
+                <h2>Avanzado</h2>
+                <a href="programas/ingles_avanzado.pdf" download>Descargar programa</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="frances-cursos">
+        <h1>Cursos de Francés</h1>
+        <div class="curso">
+            <div class="curso-info">
+                <h2>Principiante</h2>
+                <a href="programas/frances_principiante.pdf" download>Descargar programa</a>
+            </div>
+        </div>
+        <div class="curso">
+            <div class="curso-info">
+                <h2>Intermedio</h2>
+                <a href="programas/frances_intermedio.pdf" download>Descargar programa</a>
+            </div>
+        </div>
+        <div class="curso">
+            <div class="curso-info">
+                <h2>Avanzado</h2>
+                <a href="programas/frances_avanzado.pdf" download>Descargar programa</a>
+            </div>
+        </div>
+    </section >
+        
+    <section id='consigna'>
+        <h1>Consigna</h1>
+        <img src="imagenes/consigna.png" alt="Foto Consigna">
+        <a href="https://drive.google.com/drive/folders/1x1S4PgkCjIBIn6bWa8dBRLRzDuKfFwSB">Video</a>
+    </section>
+</body>
+</html>
